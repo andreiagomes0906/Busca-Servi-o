@@ -1,0 +1,87 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align:center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+#form_content{
+  width: 100%;
+  float: right;
+}
+#cadastro {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 2%;
+  border: 3px solid #3ffcff;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+#cadastro label {
+  margin-left: 5%;
+  display: flex;
+  margin-bottom: 2px;
+  font-weight: bold;
+  font-size: 14px;
+  color:rgb(0, 0, 0)
+}
+
+#cadastro input[type="text"],
+#cadastro input[type="email"],
+#cadastro input[type="tel"],
+#cadastro input[type="password"] {
+  background-color: rgba(255, 255, 255, 0.814);
+  margin-left: 5%;
+  display: flex;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 90%;
+}
+
+#cadastro .submit {
+  margin-left: 5%;
+  background-color: #4CAF50;
+  width: 90%;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+}
+
+#cadastro .submit:hover {
+  background-color: #45a049;
+}
