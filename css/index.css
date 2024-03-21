@@ -12,12 +12,17 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+
 body {
-  margin: 0;
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home {
+  width: 100%;
+  max-width: 500px;
 }
 
 header {
@@ -30,8 +35,8 @@ header {
   margin: 0 auto;
   padding: 20px;
   border-radius: 2%;
-  border: 3px solid #3ffcff;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  border: 3px solid #2bd742;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   background-color: rgba(255, 255, 255, 0.95);
 }
 
@@ -58,19 +63,23 @@ header {
   margin-bottom: 10px;
 }
 
-#cadastro .submit {
+#cadastro #password {
+  margin-bottom: 50px;
+}
+
+#submit {
   display: block;
   width: 100%;
   padding: 10px 20px;
   border: none;
   border-radius: 4px;
-  background-color: #3ffcff;
+  background-color: #2bd742;
   color: #fff;
   font-weight: bold;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
-#cadastro .submit:hover {
-  background-color: #24c3d5;
+#submit:hover {
+  background-color: #5cda6dcf;
 }
