@@ -20,6 +20,7 @@ header {
   align-items: center;
   background-color: #fff;
   color: #242424;
+  box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.4);
   padding: 0 7%;
   margin: 20px;
   border-radius: 100px;
@@ -51,7 +52,6 @@ header {
   border-color: #2bd742;
   padding-bottom: .5rem;
 }
-
 /*---------------END HEADER---------------*/
 
 /*---------------START BODY---------------*/
@@ -64,23 +64,6 @@ body {
 .home {
   width: 100%;
   max-width: 1080px;
-}
-
-#cadastro {
-  width: 500px;
-  margin: 0 auto;
-  padding: 20px;
-  border-radius: 2%;
-  border: 2px solid #2bd742;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  background-color: #ffffff;
-}
-
-#cadastro #title {
-  text-decoration: underline;
-  text-decoration-color: #040404;
-  font-size: 30px;
-  margin-bottom: 20px;
 }
 
 .usertype {
@@ -100,6 +83,23 @@ body {
   border-radius: 50%;
   border: 2px solid #333;
   cursor: pointer;
+}
+
+#cadastro {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 2%;
+  border: 2px solid #2bd742;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+#cadastro #title {
+  text-decoration: underline;
+  text-decoration-color: #040404;
+  font-size: 30px;
+  margin-bottom: 20px;
 }
 
 #cadastro label {
