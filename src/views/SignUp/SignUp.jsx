@@ -3,7 +3,7 @@ import { useState } from "react";
 import ourlogo from "../../assets/logo.png";
 import "../../App.css";
 
-function Home() {
+function SignUp() {
   const [formData, setFormData] = useState();
 
   const handleFormSubmit = (event) => {
@@ -61,4 +61,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default SignUp
