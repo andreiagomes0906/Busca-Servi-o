@@ -30,9 +30,9 @@ function SignUp() {
         <form id="cadastro" onSubmit={handleFormSubmit}>
           <label for="title" id="Title">Faça seu cadastro abaixo</label>
           <div className="usertype">
-            <input type="radio" id="user_type-1" name="user_type" value="prestador" required />
+            <input type="radio" id="user_type-1" name="user_type" value="1" required />
             <label for="user_type-1">Sou Prestador</label>
-            <input type="radio" id="user_type-2" name="user_type" value="contratante" required />
+            <input type="radio" id="user_type-2" name="user_type" value="2" required />
             <label for="user_type-2">Sou Contratante</label>
           </div>
           <br></br>
