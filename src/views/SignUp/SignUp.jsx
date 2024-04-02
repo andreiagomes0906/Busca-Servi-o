@@ -1,7 +1,8 @@
+import "../../App.css";
 import React from "react"
 import { useState } from "react";
 import ourlogo from "../../assets/logo.png";
-import "../../App.css";
+import Navbar from "../../components/navbar/navigationbar"
 
 function SignUp() {
   const [formData, setFormData] = useState();
@@ -21,6 +22,7 @@ function SignUp() {
         <a className="logo">
           <img src={ourlogo} className="our logo" alt="Busca service logo" />
         </a>
+        <Navbar />
         <h1 className="name_logo">BuscaService - Adrian e Deia</h1>
       </div>
 
